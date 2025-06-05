@@ -12,9 +12,9 @@ Mais funcionalizas mais tarde...
 - Responsividade
   
 ## Screenshots
-![App Screnshot](./img/singup.png)
-![App Screnshot](./img/login.png)
-![App Screnshot](./img/dashboard.png)
+![App Screnshot](./frontend/forms/img/singup.png)
+![App Screnshot](./frontend/forms/img/login.png)
+![App Screnshot](./frontend/forms/img/dashboard.png)
 
 ## Variáveis de Ambiente
 `Mongo URL = mongodb+srv://user:<db_password>@cluster0.ytlbu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 `

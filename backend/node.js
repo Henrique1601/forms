@@ -4,14 +4,14 @@ const mongose = require('mongoose');
 const bcrypt = require('bcrypt');
 const nodemon = require('nodemon');
 
-//mongodb+srv://henriquebs1601:<db_password>@cluster0.ytlbu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+//mongodb+srv://usarname:<db_password>@cluster0.ytlbu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 
-mongose.connect('mongodb+srv://henriquebs1601:1234@cluster0.ytlbu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' , {
+mongose.connect('mongodb+srv://usarname:<db_password>@cluster0.ytlbu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
